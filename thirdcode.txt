@@ -1,0 +1,11 @@
+1.查看分支
+git branch -a
+2.创建dev分支并切换到该分支
+git checkout -b dev
+3.提交代码到分支
+  1.提交代码到临时库
+   git add xx
+  2.提交代码到本地库
+   git commit -m "备注"
+  3.提交本地origin库代码到远端库dev分支
+   git push origin dev
